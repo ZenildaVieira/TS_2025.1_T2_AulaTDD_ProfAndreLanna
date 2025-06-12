@@ -9,7 +9,7 @@ public class IRPF {
 	}
 	
 	public float getTotalSalario() {		
-		return 5000f; // pela tecnica de falsificacao
+		return this.salario; 
 	}
 
 }
