@@ -41,12 +41,14 @@ public class IRPF {
     }
     
     public float getDeducaoDependentes() {
-    	if (dependentes.length == 1)
-    		return 189.59f; // pela tecnica de falsificacao
-    	else if (dependentes.length > 1)
-    		return 379.18f; // pela tecnica de falsificacao / duplicacao
-    	else
-    		return 0;
+    	return dependentes.length * 189.59f;
+
+    	//if (dependentes.length == 1)
+    	//	return 189.59f; // pela tecnica de falsificacao
+    	//else if (dependentes.length > 1)
+    	//	return 379.18f; // pela tecnica de falsificacao / duplicacao
+    	//else
+    	//	return 0;
     }
     
 }
