@@ -2,23 +2,23 @@ package app;
 
 public class IRPF {
 	
-	private float salario;
-	private float contribuicaoPrevidenciaria;
-	private String[] dependentes;
+    private float salario;
+    private float contribuicaoPrevidenciaria;
+    private String[] dependentes;
 	
-	public IRPF() {
-		dependentes = new String[0];
-	}
+    public IRPF() {
+        dependentes = new String[0];
+    }
     
-	public void cadastrarSalario(float salario) {
-		this.salario += salario;
-	}
+    public void cadastrarSalario(float salario) {
+        this.salario += salario;
+    }
 	
-	public float getTotalSalario() {		
-		return this.salario;
-	}
+    public float getTotalSalario() {		
+	return this.salario;
+    }
 
-	public void cadastrarPrevidenciaOficial(float contribuicaoPrevidenciaria) {
+    public void cadastrarPrevidenciaOficial(float contribuicaoPrevidenciaria) {
         this.contribuicaoPrevidenciaria = contribuicaoPrevidenciaria;
     }
 
