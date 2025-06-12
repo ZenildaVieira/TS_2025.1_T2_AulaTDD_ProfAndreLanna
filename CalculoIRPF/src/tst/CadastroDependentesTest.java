@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import app.IRPF;
 
-class CadastroDependentesTest {
+public class CadastroDependentesTest {
 
 	private IRPF irpf;
 
