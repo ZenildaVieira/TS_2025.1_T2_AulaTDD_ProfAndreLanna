@@ -9,7 +9,7 @@ import app.IRPF;
 
 public class CadastroDependentesTest {
 
-	private IRPF irpf;
+    private IRPF irpf;
 
     @Before
     public void setup() {
