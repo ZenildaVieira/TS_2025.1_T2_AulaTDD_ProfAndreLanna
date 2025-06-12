@@ -21,4 +21,11 @@ public class CadastroRendimentoTest {
         // fail("Not yet implemented");
     }
 
+    @Test
+    public void testCadastrarSalario2() {
+        irpf.cadastrarSalario(6000f);
+        assertEquals(6000f, irpf.getTotalSalario(), 0);
+        // fail("Not yet implemented");
+    }
 }
+
