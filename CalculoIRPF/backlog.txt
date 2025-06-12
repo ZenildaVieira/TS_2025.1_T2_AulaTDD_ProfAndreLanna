@@ -1,7 +1,3 @@
-- Cadastrar rendimentos
-
-- Calcular total rendimentos
-
 - Cadastrar deduções
   - Previdencia Oficial
   - Dependentes
@@ -13,3 +9,7 @@
 - Calcular imposto de renda por faixas
 
 - Calcular alíquota efetiva
+
+
+OK Cadastrar rendimentos
+OK Calcular total rendimentos
