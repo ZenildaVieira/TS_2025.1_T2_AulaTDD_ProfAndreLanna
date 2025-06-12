@@ -28,4 +28,10 @@ public class CadastrarDeducoesTest {
         assertEquals(800f, irpf.getPrevidenciaOficial(), 0);
     }
 
+    @Test
+    public void testCadastrarPrevidenciaOficial3() {
+        irpf.cadastrarPrevidenciaOficial(900f);
+        assertEquals(900f, irpf.getPrevidenciaOficial(), 0);
+    }
+
 }
