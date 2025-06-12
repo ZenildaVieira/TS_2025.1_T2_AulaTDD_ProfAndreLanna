@@ -32,9 +32,19 @@ public class CadastroDependentesTest {
     @Test
     public void testCadastrarTresDependentes() {
         irpf.cadastrarDependente("Joao");
-        irpf.cadastrarDependente("Jose");
         irpf.cadastrarDependente("Maria");
+        irpf.cadastrarDependente("Jose");
         assertEquals(3 * 189.59f, irpf.getDeducaoDependentes(), 0);
+    }
+
+    @Test
+    public void testCadastrarCincoDependentes() {
+        irpf.cadastrarDependente("Joao");
+        irpf.cadastrarDependente("Maria");
+        irpf.cadastrarDependente("Jose");
+        irpf.cadastrarDependente("Maria Jose");
+        irpf.cadastrarDependente("Jose Maria");
+        assertEquals(5 * 189.59f, irpf.getDeducaoDependentes(), 0);
     }
 
 }
